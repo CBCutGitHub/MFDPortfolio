@@ -1,8 +1,16 @@
 .banner{
-    background-image: url("https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png");
-min-height: 400px;
+  /*background-image: url("https://www.projectmanager.com/wp-content/uploads/2017/12/project-manager-job-description-infographic.jpg");*/
+  background-image: url("https://wp-content/uploads/2017/12/project-manager-job-description-infographic.jpg;")
+  background-image: url("https://thumbs.dreamstime.com/b/businessman-hand-drawing-project-management-concept-96005836.jpg");
+  .banner: url("https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png");
+
+min-height: 80px;
 padding: 20px;
 display: flex;
+
+  /* min-height: 200px;
+padding: 20px;
+display: flex; */
 }
 
 header{
@@ -11,7 +19,41 @@ header{
 display:flex;
 flex-direction: row;
 align-items: center;
-background-color: beige;
+background-color: rgb(118, 233, 107);
+
+/* work area*/
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+<h2>Form</h2>
+
+<form action="/action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+  </div>
+
+
+
+
+
+
+/* align-items: center; */
+/* background-color: beige; */
 }
 
 .page-section{margin: 25px 0;
@@ -26,7 +68,7 @@ background-color: beige;
     flex: 0 0 20%;
     text-align: right;
     padding-right: 15px;
-    border-right: 4px solid black;
+    border-right: 4px solid rgb(4, 138, 86);
     font-size: 4vw;
     line-height: 1.1;
   }
@@ -39,8 +81,8 @@ background-color: beige;
     justify-content: center;
   }
   .flex-item {
-    border: 5px solid black;
-    background-color: blue;
+    border: 5px solid rgb(59, 76, 228);
+    background-color: rgb(80, 80, 236);
     color: var(--tertiary);
     min-height: 150px;
     max-height: 150px;
@@ -103,13 +145,17 @@ background-color: beige;
   }
 
   .Project-Three{
-    background-image: url("https://images.ctfassets.net/hrltx12pl8hq/7JnR6tVVwDyUM8Cbci3GtJ/bf74366cff2ba271471725d0b0ef418c/shutterstock_376532611-og.jpg");
+    /*background-image: url("https://images.ctfassets.net/hrltx12pl8hq/7JnR6tVVwDyUM8Cbci3GtJ/bf74366cff2ba271471725d0b0ef418c/shutterstock_376532611-og.jpg");*/
+    background-image: url("https://thumbs.dreamstime.com/b/businessman-hand-drawing-project-management-concept-96005836.jpg");
+    
   }
     
   .Project-Four{
     background-image: url("https://images.ctfassets.net/hrltx12pl8hq/7JnR6tVVwDyUM8Cbci3GtJ/bf74366cff2ba271471725d0b0ef418c/shutterstock_376532611-og.jpg");
-}
+
+  }
 
   .Project-Five{
     background-image: url("https://images.ctfassets.net/hrltx12pl8hq/7JnR6tVVwDyUM8Cbci3GtJ/bf74366cff2ba271471725d0b0ef418c/shutterstock_376532611-og.jpg");
-}
+
+  }
