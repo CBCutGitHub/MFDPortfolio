@@ -1,16 +1,13 @@
 .banner{
-  /*background-image: url("https://www.projectmanager.com/wp-content/uploads/2017/12/project-manager-job-description-infographic.jpg");*/
-  background-image: url("https://wp-content/uploads/2017/12/project-manager-job-description-infographic.jpg;")
-  background-image: url("https://thumbs.dreamstime.com/b/businessman-hand-drawing-project-management-concept-96005836.jpg");
-  .banner: url("https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png");
+/*  background-image: url("https://wp-content/uploads/2017/12/project-manager-job-description-infographic.jpg;") */
+/*  background-image: url("https://thumbs.dreamstime.com/b/businessman-hand-drawing-project-management-concept-96005836.jpg"); */
+/*  .banner: url("https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png"); */
+  .banner: url("https://thumbs.dreamstime.com/b/businessman-hand-drawing-project-management-concept-96005836.jpg");
 
 min-height: 80px;
 padding: 20px;
-display: flex;
+display:flex;
 
-  /* min-height: 200px;
-padding: 20px;
-display: flex; */
 }
 
 header{
@@ -18,7 +15,7 @@ header{
 
 display:flex;
 flex-direction: row;
-align-items: center;
+justify-content: space-between;
 background-color: rgb(118, 233, 107);
 
 /* work area*/
@@ -32,12 +29,6 @@ img.avatar {
   width: 40%;
   border-radius: 50%;
 }
-
-
-
-
-
-
 
 
 <h2>Form</h2>
@@ -145,7 +136,6 @@ img.avatar {
   }
 
   .Project-Three{
-    /*background-image: url("https://images.ctfassets.net/hrltx12pl8hq/7JnR6tVVwDyUM8Cbci3GtJ/bf74366cff2ba271471725d0b0ef418c/shutterstock_376532611-og.jpg");*/
     background-image: url("https://thumbs.dreamstime.com/b/businessman-hand-drawing-project-management-concept-96005836.jpg");
     
   }
